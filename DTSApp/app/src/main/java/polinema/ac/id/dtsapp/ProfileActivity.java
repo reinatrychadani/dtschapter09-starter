@@ -91,4 +91,5 @@ public class ProfileActivity extends AppCompatActivity
         this.currentUser.email = this.edtEmail.getText().toString();
         this.currentUser.phoneNumber = this.edtPhoneNumber.getText().toString();
     }
+
 }
