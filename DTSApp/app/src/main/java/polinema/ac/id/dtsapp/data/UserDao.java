@@ -8,6 +8,7 @@ import android.arch.persistence.room.Update;
 
 import java.util.List;
 
+@Dao
 public interface UserDao {
     @Query("SELECT * FROM user")
     List<User> getAll();
